@@ -5,6 +5,14 @@ import {Script, console} from "forge-std/Script.sol";
 import {OnchainNFT} from "../src/onChainNFT.sol";
 import {Base64} from "@openzeppelin/contracts/utils/Base64.sol";
 
+
+// Repository: https://github.com/feranmiba/nft.git
+// Commit: 7a60ebf
+// Testnet: Sepolia
+// Contract: https://sepolia.etherscan.io/address/0x18F00Aef5811d3c4E69777b2a027fd61083dA377
+// Deployment transaction: https://sepolia.etherscan.io/tx/0x333e050e00c6e081c36ca9de15fe0fb2c9982d9cb953b3bae685b273aa22b79d
+// Mint transaction: https://sepolia.etherscan.io/tx/0x94c4aa07638530221c4cc9b3d4ad7063dc0a7a3baa15e5a5016d2f64add11119
+
 /**
  * @title DeployAndMint
  * @notice Foundry script to deploy OnchainNFT, upload SVG & metadata in bytecode chunks, and mint 1 NFT.
